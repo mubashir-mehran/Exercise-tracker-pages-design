@@ -1,0 +1,90 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.activity {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  height: 47rem;
+  gap: 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 2px 2px 3px black;
+}
+.heading4 {
+  text-align: center;
+  color: #15023a;
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: revert-layer;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+label {
+  color: #15023a;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: flex;
+}
+input {
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px lightgrey;
+}
+select {
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px lightgrey;
+}
+.start {
+  border: 1px solid gray;
+  background: #15023a;
+  color: white;
+  width: 6rem;
+  padding: 10px;
+  border: 1px solid#15023a;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: inherit;
+  letter-spacing: 2px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.wrapper1 {
+  margin-right: 10rem;
+  background-color: #15023a;
+  border-radius: 4rem;
+  width: 35%;
+  padding: 1px 5px;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    z-index: 2;
+    font-weight: 700;
+  }
+  div {
+    position: absolute;
+    background-color: orange;
+    width: 4.5rem;
+    height: 60%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+  }
+}
+option{
+        font-size: 20px;
+        color: #15023a;
+        font-weight: bold;
+}
